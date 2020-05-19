@@ -1,0 +1,29 @@
+<script type="text/javascript">
+    let allProjects = [];
+    {% for item in site.data.projects %}
+        allProjects.push({
+            name: "{{ item[1]["name"] }}",
+            owner: "{{ item[1]["owner"] }}",
+            description: "{{ item[1]["description"] }}",
+            homepageURL: "{{ item[1]["homepageUrl"] }}",
+            isPrivate: {{ item[1]["isPrivate"] }},
+            isFeatured: {{ item[1]["isFeatured"] }},
+            forceDescription: {{ item[1]["forceDescription"] }},
+            category: "{{ item[1]["category"] }}",
+            keywords: [
+                {% for word in item[1]["keywords"] %}
+                    "{{ word }}",
+                {% endfor %}
+            ]
+        })
+    {% endfor %}
+    let allCategories = [];
+    {% for item in site.data.categories %}
+        allCategories.push({
+            name: "{{ item[1]["name"] }}",
+            displayName: "{{ item[1]["displayName"] }}",
+            hidden: {{ item[1]["hidden"] }}
+        })
+    {% endfor %}
+</script>
+<script src="/assets/js/project-core.js"></script>

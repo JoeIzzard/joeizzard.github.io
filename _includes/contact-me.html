@@ -1,0 +1,74 @@
+<section class="contact">
+  <div class="col-2">
+    <p>I am always interested in hearing from people regarding my projects, or potential projects!</p>
+    <p>Feel free to contact me with any of the methods on this page for:</p>
+    <ul>
+      <li>Issues with any of my projects (Please consider submitting an issue!)</li>
+      <li>Questions on anything relating to my projects or work</li>
+      <li>Potential projects</li>
+      <li>Feature requests/suggestions</li>
+      <li>Anything else!</li>
+    </ul>
+  </div>
+  <div class="col-2">
+    <h2>Ways to get in touch:</h2>
+
+    <ul class="contact-list">
+    {% if site.social-networks.email.enable.contact == true %}
+      <li><a aria-label="Send email" href="mailto:{{ site.social-networks.email.address }}"><i class="icon {{ site.data.icons.social.email }}"></i><span>{{ site.social-networks.email.address }}</span></a></li>
+    {% endif %}
+
+    {% if site.social-networks.facebook.enable.contact == true %}
+    <li><a aria-label="My Facebook" href="https://facebook.com/{{ site.social-networks.facebook.username }}"><i class="icon {{ site.data.icons.social.facebook }}"></i><span>{{ site.social-networks.facebook.username }}</span></a></li>
+    {% endif %}
+
+    {% if site.social-networks.twitter.enable.contact == true %}
+    <li><a aria-label="My Twitter" href="https://twitter.com/{{ site.social-networks.twitter.username }}"><i class="icon {{ site.data.icons.social.twitter }}"></i><span>{{ site.social-networks.twitter.username }}</span></a></li>
+    {% endif %}
+
+    {% if site.social-networks.instagram.enable.contact == true %}
+    <li><a aria-label="My Instagram" href="https://instagram.com/{{ site.social-networks.instagram.username }}"><i class="icon {{ site.data.icons.social.instagram }}"></i><span>{{ site.social-networks.instagram.username }}</span></a></li>
+    {% endif %}
+
+    {% if site.social-networks.youtube.enable.contact == true %}
+    <li><a aria-label="My Youtube" href="https://youtube.com/{{ site.social-networks.youtube.username }}"><i class="icon {{ site.data.icons.social.youtube }}"></i><span>{{ site.social-networks.youtube.username }}</span></a></li>
+    {% endif %}
+
+    {% if site.social-networks.snapchat.enable.contact == true %}
+    <li><a aria-label="My Snapchat" href="https://snapchat.com/add/{{ site.social-networks.snapchat.username }}"><i class="icon {{ site.data.icons.social.snapchat }}"></i><span>{{ site.social-networks.snapchat.username }}</span></a></li>
+    {% endif %}
+
+    {% if site.social-networks.reddit.enable.contact == true %}
+    <li><a aria-label="My Reddit" href="https://reddit.com/u/{{ site.social-networks.reddit.username }}"><i class="icon {{ site.data.icons.social.reddit }}"></i><span>{{ site.social-networks.reddit.username }}</span></a></li>
+    {% endif %}
+
+    {% if site.social-networks.stackoverflow.enable.contact == true %}
+    <li><a aria-label="My Stack Overflow" href="{{ site.social-networks.stackoverflow.url }}"><i class="icon {{ site.data.icons.social.stackoverflow }}"></i><span>{{ site.social-networks.stackoverflow.username }}</span></a></li>
+    {% endif %}
+
+    {% if site.social-networks.linkedin.enable.contact == true %}
+    <li><a aria-label="My LinkedIn" href="https://www.linkedin.com/in/{{ site.social-networks.linkedin.username }}"><i class="icon {{ site.data.icons.social.linkedin }}"></i><span>{{ site.social-networks.linkedin.username }}</span></a></li>
+    {% endif %}
+
+    {% if site.social-networks.github.enable.contact == true %}
+    <li><a aria-label="My GitHub" href="https://github.com/{{ site.social-networks.github.username }}"><i class="icon {{ site.data.icons.social.github }}"></i><span>{{ site.social-networks.github.username }}</span></a></li>
+    {% endif %}
+
+    {% if site.social-networks.whatsapp.enable.contact == true %}
+    <li><a aria-label="My WhatsApp" href="https://api.whatsapp.com/send?phone={{ site.social-networks.whatsapp.number }}"><i class="icon {{ site.data.icons.social.whatsapp }}"></i><span>{{ site.social-networks.whatsapp.number }}</span></a></li>
+    {% endif %}
+
+    {% if site.social-networks.phone.enable.contact == true %}
+    <li><a aria-label="My Phone" href="tel:{{ site.social-networks.phone.number }}"><i class="icon {{ site.data.icons.social.phone }}"></i><span>{{ site.social-networks.phone.number }}</span></a></li>
+    {% endif %}
+
+    {% if site.social-networks.website.enable.contact == true %}
+    <li><a aria-label="My Website" href="{{ site.social-networks.website.url }}"><i class="icon {{ site.data.icons.social.website }}"></i><span>Visit my Website</span></a></li>
+    {% endif %}
+
+    {% if site.social-networks.vcard.enable.contact == true %}
+    <li><a aria-label="My vCard" href="{{ site.social-networks.vcard.url }}"><i class="icon {{ site.data.icons.social.vcard }}"></i><span>Download vCard</span></a></li>
+    {% endif %}
+    </ul>
+  </div>
+</section>

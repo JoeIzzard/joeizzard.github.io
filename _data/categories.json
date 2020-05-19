@@ -1,0 +1,12 @@
+{
+    "docker": {
+        "name": "docker",
+        "displayName": "Docker",
+        "hidden": false
+    },
+    "api": {
+        "name": "api",
+        "displayName": "API",
+        "hidden": false
+    }
+}

@@ -1,0 +1,72 @@
+<div id="particles-js">
+  <div class="header">
+      <h1>
+        <span class="site-title">{{ site.username }}</span>
+        <span class="site-description">{{ site.user_title }}</span>
+      </h1>
+      <div class="header-icons">
+        {% if site.social-networks.email.enable.homepage == true %}
+          <a aria-label="Send email" href="mailto:{{ site.social-networks.email.address }}"><i class="icon {{ site.data.icons.social.email }}"></i></a>
+        {% endif %}
+
+        {% if site.social-networks.facebook.enable.homepage == true %}
+          <a aria-label="My Facebook" href="https://facebook.com/{{ site.social-networks.facebook.username }}"><i class="icon {{ site.data.icons.social.facebook }}"></i></a>
+        {% endif %}
+
+        {% if site.social-networks.twitter.enable.homepage == true %}
+          <a aria-label="My Twitter" href="https://twitter.com/{{ site.social-networks.twitter.username }}"><i class="icon {{ site.data.icons.social.twitter }}"></i></a>
+        {% endif %}
+
+        {% if site.social-networks.instagram.enable.homepage == true %}
+          <a aria-label="My Instagram" href="https://instagram.com/{{ site.social-networks.instagram.username }}"><i class="icon {{ site.data.icons.social.instagram }}"></i></a>
+        {% endif %}
+
+        {% if site.social-networks.youtube.enable.homepage == true %}
+          <a aria-label="My Youtube" href="https://youtube.com/{{ site.social-networks.youtube.username }}"><i class="icon {{ site.data.icons.social.youtube }}"></i></a>
+        {% endif %}
+
+        {% if site.social-networks.snapchat.enable.homepage == true %}
+          <a aria-label="My Snapchat" href="https://snapchat.com/add/{{ site.social-networks.snapchat.username }}"><i class="icon {{ site.data.icons.social.snapchat }}"></i></a>
+        {% endif %}
+
+        {% if site.social-networks.reddit.enable.homepage == true %}
+          <a aria-label="My Reddit" href="https://reddit.com/u/{{ site.social-networks.reddit.username }}"><i class="icon {{ site.data.icons.social.reddit }}"></i></a>
+        {% endif %}
+
+        {% if site.social-networks.stackoverflow.enable.homepage == true %}
+          <a aria-label="My Stack Overflow" href="{{ site.social-networks.stackoverflow.url }}"><i class="icon {{ site.data.icons.social.stackoverflow }}"></i></a>
+        {% endif %}
+
+        {% if site.social-networks.linkedin.enable.homepage == true %}
+          <a aria-label="My LinkedIn" href="https://www.linkedin.com/in/{{ site.social-networks.linkedin.username }}"><i class="icon {{ site.data.icons.social.linkedin }}"></i></a>
+        {% endif %}
+
+        {% if site.social-networks.github.enable.homepage == true %}
+          <a aria-label="My GitHub" href="https://github.com/{{ site.social-networks.github.username }}"><i class="icon {{ site.data.icons.social.github }}"></i></a>
+        {% endif %}
+
+        {% if site.social-networks.whatsapp.enable.homepage == true %}
+          <a aria-label="My WhatsApp" href="https://api.whatsapp.com/send?phone={{ site.social-networks.whatsapp.number }}"><i class="icon {{ site.data.icons.social.whatsapp }}"></i></a>
+        {% endif %}
+
+        {% if site.social-networks.phone.enable.homepage == true %}
+          <a aria-label="My Phone" href="tel:{{ site.social-networks.phone.number }}"><i class="icon {{ site.data.icons.social.phone }}"></i></a>
+        {% endif %}
+
+        {% if site.social-networks.website.enable.homepage == true %}
+          <a aria-label="My Website" href="{{ site.social-networks.website.url }}"><i class="icon {{ site.data.icons.social.website }}"></i></a>
+        {% endif %}
+
+        {% if site.social-networks.vcard.enable.homepage == true %}
+          <a aria-label="My vCard" href="{{ site.social-networks.vcard.url }}"><i class="icon {{ site.data.icons.social.vcard }}"></i></a>
+        {% endif %}
+
+      </div>
+      <div class="header-links">
+        {% for item in site.data.headerlinks %}
+          <a class="link" href="{% if item.singlepage == true %}#{% endif %}{{ item.link }}" {% if item.singlepage == true %}data-scroll{% endif %}>{{ item.name }}</a>
+        {% endfor %}
+      </div>
+  </div>
+  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+</div>

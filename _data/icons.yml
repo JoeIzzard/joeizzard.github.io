@@ -1,0 +1,15 @@
+social:
+    email: far fa-envelope
+    facebook: fab fa-facebook-f
+    github: fab fa-github-alt
+    twitter: fab fa-twitter
+    reddit: fab fa-reddit-alien
+    linkedin: fab fa-linkedin-in
+    stackoverflow: fab fa-stack-overflow
+    snapchat: fab fa-snapchat-ghost
+    instagram: fab fa-instagram
+    youtube: fab fa-youtube
+    phone: fas fa-phone-alt
+    vcard: far fa-address-card
+    website: fas fa-globe-americas
+    whatsapp: fab fa-whatsapp

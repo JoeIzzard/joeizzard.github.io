@@ -1,0 +1,26 @@
+.sidebar-container{
+    display: flex;
+
+    .sidebar{
+        flex-basis: 30%;
+        flex-grow: 1;
+        flex-shrink: 1;
+        min-width: 100px;
+        max-width: 300px;
+        margin: 20px;
+        border-right: 1px solid #555;
+    }
+
+    .content-fill{
+        flex: 70%;
+        margin: 20px;
+    }
+}
+
+.widget{
+    h3{
+        padding: 0;
+        margin-top: 0;
+        font-family: 'Montserrat', sans-serif;
+    }
+}

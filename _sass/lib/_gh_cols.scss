@@ -1,0 +1,1589 @@
+$lang-default: #cccccc;
+$gh-lang-1centerprise: #814CCC;
+$gh-lang-4d: $lang-default;
+$gh-lang-abap: #E8274B;
+$gh-lang-actionscript: #882B0F;
+$gh-lang-ada: #02f88c;
+$gh-lang-agda: #315665;
+$gh-lang-agsscript: #B9D9FF;
+$gh-lang-alloy: #64C800;
+$gh-lang-alpineabuild: $lang-default;
+$gh-lang-ampl: #E6EFBB;
+$gh-lang-angelscript: #C7D7DC;
+$gh-lang-antlr: #9DC3FF;
+$gh-lang-apex: $lang-default;
+$gh-lang-apiblueprint: #2ACCA8;
+$gh-lang-apl: #5A8164;
+$gh-lang-apolloguidancecomputer: $lang-default;
+$gh-lang-applescript: #101F1F;
+$gh-lang-arc: #aa2afe;
+$gh-lang-asp: #6a40fd;
+$gh-lang-aspectj: #a957b0;
+$gh-lang-assembly: #6E4C13;
+$gh-lang-asymptote: #4a0c0c;
+$gh-lang-ats: #1ac620;
+$gh-lang-augeas: $lang-default;
+$gh-lang-autohotkey: #6594b9;
+$gh-lang-autoit: #1C3552;
+$gh-lang-awk: $lang-default;
+$gh-lang-ballerina: #FF5000;
+$gh-lang-batchfile: #C1F12E;
+$gh-lang-befunge: $lang-default;
+$gh-lang-bison: $lang-default;
+$gh-lang-bitbake: $lang-default;
+$gh-lang-blitzbasic: $lang-default;
+$gh-lang-blitzmax: #cd6400;
+$gh-lang-bluespec: $lang-default;
+$gh-lang-boo: #d4bec1;
+$gh-lang-brainfuck: #2F2530;
+$gh-lang-brightscript: $lang-default;
+$gh-lang-c: #555555;
+$gh-lang-c: #178600;
+$gh-lang-c: #f34b7d;
+$gh-lang-c2hshaskell: $lang-default;
+$gh-lang-capnproto: $lang-default;
+$gh-lang-cartocss: $lang-default;
+$gh-lang-ceylon: #dfa535;
+$gh-lang-chapel: #8dc63f;
+$gh-lang-charity: $lang-default;
+$gh-lang-chuck: $lang-default;
+$gh-lang-cirru: #ccccff;
+$gh-lang-clarion: #db901e;
+$gh-lang-clean: #3F85AF;
+$gh-lang-click: #E4E6F3;
+$gh-lang-clips: $lang-default;
+$gh-lang-clojure: #db5855;
+$gh-lang-cmake: $lang-default;
+$gh-lang-cobol: $lang-default;
+$gh-lang-codeql: $lang-default;
+$gh-lang-coffeescript: #244776;
+$gh-lang-coldfusion: #ed2cd6;
+$gh-lang-coldfusioncfc: $lang-default;
+$gh-lang-commonlisp: #3fb68b;
+$gh-lang-commonworkflowlanguage: #B5314C;
+$gh-lang-componentpascal: #B0CE4E;
+$gh-lang-cool: $lang-default;
+$gh-lang-coq: $lang-default;
+$gh-lang-crystal: #000100;
+$gh-lang-csound: $lang-default;
+$gh-lang-csounddocument: $lang-default;
+$gh-lang-csoundscore: $lang-default;
+$gh-lang-css: #563d7c;
+$gh-lang-cuda: #3A4E3A;
+$gh-lang-cweb: $lang-default;
+$gh-lang-cycript: $lang-default;
+$gh-lang-cython: $lang-default;
+$gh-lang-d: #ba595e;
+$gh-lang-dart: #00B4AB;
+$gh-lang-dataweave: #003a52;
+$gh-lang-dhall: #dfafff;
+$gh-lang-digitalcommandlanguage: $lang-default;
+$gh-lang-dm: #447265;
+$gh-lang-dockerfile: #384d54;
+$gh-lang-dogescript: #cca760;
+$gh-lang-dtrace: $lang-default;
+$gh-lang-dylan: #6c616e;
+$gh-lang-e: #ccce35;
+$gh-lang-ec: #913960;
+$gh-lang-ecl: #8a1267;
+$gh-lang-eclipse: $lang-default;
+$gh-lang-eiffel: #946d57;
+$gh-lang-elixir: #6e4a7e;
+$gh-lang-elm: #60B5CC;
+$gh-lang-emacslisp: #c065db;
+$gh-lang-emberscript: #FFF4F3;
+$gh-lang-eq: #a78649;
+$gh-lang-erlang: #B83998;
+$gh-lang-f: #b845fc;
+$gh-lang-f: #572e30;
+$gh-lang-factor: #636746;
+$gh-lang-fancy: #7b9db4;
+$gh-lang-fantom: #14253c;
+$gh-lang-faust: #c37240;
+$gh-lang-filebenchwml: $lang-default;
+$gh-lang-filterscript: $lang-default;
+$gh-lang-fish: $lang-default;
+$gh-lang-flux: #88ccff;
+$gh-lang-forth: #341708;
+$gh-lang-fortran: #4d41b1;
+$gh-lang-freemarker: #0050b2;
+$gh-lang-frege: #00cafe;
+$gh-lang-gcode: #D08CF2;
+$gh-lang-gamemakerlanguage: #71b417;
+$gh-lang-gaml: #FFC766;
+$gh-lang-gams: $lang-default;
+$gh-lang-gap: $lang-default;
+$gh-lang-gccmachinedescription: $lang-default;
+$gh-lang-gdb: $lang-default;
+$gh-lang-gdscript: #355570;
+$gh-lang-genie: #fb855d;
+$gh-lang-genshi: $lang-default;
+$gh-lang-gentooebuild: $lang-default;
+$gh-lang-gentooeclass: $lang-default;
+$gh-lang-gherkin: #5B2063;
+$gh-lang-glsl: $lang-default;
+$gh-lang-glyph: #c1ac7f;
+$gh-lang-gnuplot: #f0a9f0;
+$gh-lang-go: #00ADD8;
+$gh-lang-golo: #88562A;
+$gh-lang-gosu: #82937f;
+$gh-lang-grace: $lang-default;
+$gh-lang-grammaticalframework: #79aa7a;
+$gh-lang-groovy: #e69f56;
+$gh-lang-groovyserverpages: $lang-default;
+$gh-lang-hack: #878787;
+$gh-lang-harbour: #0e60e3;
+$gh-lang-haskell: #5e5086;
+$gh-lang-haxe: #df7900;
+$gh-lang-hcl: $lang-default;
+$gh-lang-hiveql: #dce200;
+$gh-lang-hlsl: $lang-default;
+$gh-lang-holyc: #ffefaf;
+$gh-lang-html: #e34c26;
+$gh-lang-hy: #7790B2;
+$gh-lang-hyphy: $lang-default;
+$gh-lang-idl: #a3522f;
+$gh-lang-idris: #b30000;
+$gh-lang-igorpro: #0000cc;
+$gh-lang-inform7: $lang-default;
+$gh-lang-innosetup: $lang-default;
+$gh-lang-io: #a9188d;
+$gh-lang-ioke: #078193;
+$gh-lang-isabelle: #FEFE00;
+$gh-lang-isabelleroot: $lang-default;
+$gh-lang-j: #9EEDFF;
+$gh-lang-jasmin: $lang-default;
+$gh-lang-java: #b07219;
+$gh-lang-javaserverpages: $lang-default;
+$gh-lang-javascript: #f1e05a;
+$gh-lang-javascripterb: $lang-default;
+$gh-lang-jflex: $lang-default;
+$gh-lang-jison: $lang-default;
+$gh-lang-jisonlex: $lang-default;
+$gh-lang-jolie: #843179;
+$gh-lang-jsoniq: #40d47e;
+$gh-lang-jsonnet: #0064bd;
+$gh-lang-jsx: $lang-default;
+$gh-lang-julia: #a270ba;
+$gh-lang-jupyternotebook: #DA5B0B;
+$gh-lang-kotlin: #F18E33;
+$gh-lang-krl: #28430A;
+$gh-lang-labview: $lang-default;
+$gh-lang-lasso: #999999;
+$gh-lang-lean: $lang-default;
+$gh-lang-lex: #DBCA00;
+$gh-lang-lfe: #4C3023;
+$gh-lang-lilypond: $lang-default;
+$gh-lang-limbo: $lang-default;
+$gh-lang-literateagda: $lang-default;
+$gh-lang-literatecoffeescript: $lang-default;
+$gh-lang-literatehaskell: $lang-default;
+$gh-lang-livescript: #499886;
+$gh-lang-llvm: #185619;
+$gh-lang-logos: $lang-default;
+$gh-lang-logtalk: $lang-default;
+$gh-lang-lolcode: #cc9900;
+$gh-lang-lookml: #652B81;
+$gh-lang-loomscript: $lang-default;
+$gh-lang-lsl: #3d9970;
+$gh-lang-lua: #000080;
+$gh-lang-m: $lang-default;
+$gh-lang-m4: $lang-default;
+$gh-lang-m4sugar: $lang-default;
+$gh-lang-makefile: #427819;
+$gh-lang-mako: $lang-default;
+$gh-lang-mask: #f97732;
+$gh-lang-mathematica: $lang-default;
+$gh-lang-matlab: #e16737;
+$gh-lang-max: #c4a79c;
+$gh-lang-maxscript: #00a6a6;
+$gh-lang-mcfunction: #E22837;
+$gh-lang-mercury: #ff2b2b;
+$gh-lang-meson: #007800;
+$gh-lang-metal: #8f14e9;
+$gh-lang-minid: $lang-default;
+$gh-lang-mirah: #c7a938;
+$gh-lang-mircscript: #926059;
+$gh-lang-mlir: #5EC8DB;
+$gh-lang-modelica: $lang-default;
+$gh-lang-modula2: $lang-default;
+$gh-lang-modula3: #223388;
+$gh-lang-modulemanagementsystem: $lang-default;
+$gh-lang-monkey: $lang-default;
+$gh-lang-moocode: $lang-default;
+$gh-lang-moonscript: $lang-default;
+$gh-lang-motorola68kassembly: $lang-default;
+$gh-lang-mql4: #62A8D6;
+$gh-lang-mql5: #4A76B8;
+$gh-lang-mtml: #b7e1f4;
+$gh-lang-muf: $lang-default;
+$gh-lang-mupad: $lang-default;
+$gh-lang-myghty: $lang-default;
+$gh-lang-nasl: $lang-default;
+$gh-lang-ncl: #28431f;
+$gh-lang-nearley: #990000;
+$gh-lang-nemerle: #3d3c6e;
+$gh-lang-nesc: #94B0C7;
+$gh-lang-netlinx: #0aa0ff;
+$gh-lang-netlinxerb: #747faa;
+$gh-lang-netlogo: #ff6375;
+$gh-lang-newlisp: #87AED7;
+$gh-lang-nextflow: #3ac486;
+$gh-lang-nim: #37775b;
+$gh-lang-nit: #009917;
+$gh-lang-nix: #7e7eff;
+$gh-lang-nsis: $lang-default;
+$gh-lang-nu: #c9df40;
+$gh-lang-numpy: $lang-default;
+$gh-lang-objectivec: #438eff;
+$gh-lang-objectivec: #6866fb;
+$gh-lang-objectivej: #ff0c5a;
+$gh-lang-objectscript: #424893;
+$gh-lang-ocaml: #3be133;
+$gh-lang-odin: #60AFFE;
+$gh-lang-omgrofl: #cabbff;
+$gh-lang-ooc: #b0b77e;
+$gh-lang-opa: $lang-default;
+$gh-lang-opal: #f7ede0;
+$gh-lang-openpolicyagent: $lang-default;
+$gh-lang-opencl: $lang-default;
+$gh-lang-openedgeabl: $lang-default;
+$gh-lang-openqasm: #AA70FF;
+$gh-lang-openrcrunscript: $lang-default;
+$gh-lang-openscad: $lang-default;
+$gh-lang-ox: $lang-default;
+$gh-lang-oxygene: #cdd0e3;
+$gh-lang-oz: #fab738;
+$gh-lang-p4: #7055b5;
+$gh-lang-pan: #cc0000;
+$gh-lang-papyrus: #6600cc;
+$gh-lang-parrot: #f3ca0a;
+$gh-lang-parrotassembly: $lang-default;
+$gh-lang-parrotinternalrepresentation: $lang-default;
+$gh-lang-pascal: #E3F171;
+$gh-lang-pawn: #dbb284;
+$gh-lang-pep8: #C76F5B;
+$gh-lang-perl: #0298c3;
+$gh-lang-php: #4F5D95;
+$gh-lang-picolisp: $lang-default;
+$gh-lang-piglatin: #fcd7de;
+$gh-lang-pike: #005390;
+$gh-lang-plpgsql: $lang-default;
+$gh-lang-plsql: #dad8d8;
+$gh-lang-pogoscript: #d80074;
+$gh-lang-pony: $lang-default;
+$gh-lang-postscript: #da291c;
+$gh-lang-povraysdl: $lang-default;
+$gh-lang-powerbuilder: #8f0f8d;
+$gh-lang-powershell: #012456;
+$gh-lang-processing: #0096D8;
+$gh-lang-prolog: #74283c;
+$gh-lang-propellerspin: #7fa2a7;
+$gh-lang-puppet: #302B6D;
+$gh-lang-purebasic: #5a6986;
+$gh-lang-purescript: #1D222D;
+$gh-lang-python: #3572A5;
+$gh-lang-pythonconsole: $lang-default;
+$gh-lang-q: #0040cd;
+$gh-lang-qmake: $lang-default;
+$gh-lang-qml: #44a51c;
+$gh-lang-quake: #882233;
+$gh-lang-r: #198CE7;
+$gh-lang-racket: #3c5caa;
+$gh-lang-ragel: #9d5200;
+$gh-lang-raku: #0000fb;
+$gh-lang-raml: #77d9fb;
+$gh-lang-rascal: #fffaa0;
+$gh-lang-realbasic: $lang-default;
+$gh-lang-reason: #ff5847;
+$gh-lang-rebol: #358a5b;
+$gh-lang-red: #f50000;
+$gh-lang-redcode: $lang-default;
+$gh-lang-renpy: #ff7f7f;
+$gh-lang-renderscript: $lang-default;
+$gh-lang-rexx: $lang-default;
+$gh-lang-ring: #2D54CB;
+$gh-lang-riot: #A71E49;
+$gh-lang-robotframework: $lang-default;
+$gh-lang-roff: #ecdebe;
+$gh-lang-rouge: #cc0088;
+$gh-lang-rpc: $lang-default;
+$gh-lang-ruby: #701516;
+$gh-lang-runoff: #665a4e;
+$gh-lang-rust: #dea584;
+$gh-lang-sage: $lang-default;
+$gh-lang-saltstack: #646464;
+$gh-lang-sas: #B34936;
+$gh-lang-scala: #c22d40;
+$gh-lang-scheme: #1e4aec;
+$gh-lang-scilab: $lang-default;
+$gh-lang-sed: #64b970;
+$gh-lang-self: #0579aa;
+$gh-lang-shaderlab: $lang-default;
+$gh-lang-shell: #89e051;
+$gh-lang-shellsession: $lang-default;
+$gh-lang-shen: #120F14;
+$gh-lang-slash: #007eff;
+$gh-lang-slice: #003fa2;
+$gh-lang-smali: $lang-default;
+$gh-lang-smalltalk: #596706;
+$gh-lang-smarty: $lang-default;
+$gh-lang-smpl: #c94949;
+$gh-lang-smt: $lang-default;
+$gh-lang-solidity: #AA6746;
+$gh-lang-sourcepawn: #5c7611;
+$gh-lang-sqf: #3F3F3F;
+$gh-lang-sqlpl: $lang-default;
+$gh-lang-squirrel: #800000;
+$gh-lang-srecodetemplate: #348a34;
+$gh-lang-stan: #b2011d;
+$gh-lang-standardml: #dc566d;
+$gh-lang-starlark: #76d275;
+$gh-lang-stata: $lang-default;
+$gh-lang-supercollider: #46390b;
+$gh-lang-swift: #ffac45;
+$gh-lang-swig: $lang-default;
+$gh-lang-systemverilog: #DAE1C2;
+$gh-lang-tcl: #e4cc98;
+$gh-lang-tcsh: $lang-default;
+$gh-lang-terra: #00004c;
+$gh-lang-tex: #3D6117;
+$gh-lang-thrift: $lang-default;
+$gh-lang-tiprogram: #A0AA87;
+$gh-lang-tla: $lang-default;
+$gh-lang-tsql: $lang-default;
+$gh-lang-tsx: $lang-default;
+$gh-lang-turing: #cf142b;
+$gh-lang-txl: $lang-default;
+$gh-lang-typescript: #2b7489;
+$gh-lang-unifiedparallelc: $lang-default;
+$gh-lang-unixassembly: $lang-default;
+$gh-lang-uno: $lang-default;
+$gh-lang-unrealscript: #a54c4d;
+$gh-lang-urweb: $lang-default;
+$gh-lang-v: #5d87bd;
+$gh-lang-vala: #fbe5cd;
+$gh-lang-vba: #867db1;
+$gh-lang-vbscript: #15dcdc;
+$gh-lang-vcl: #148AA8;
+$gh-lang-verilog: #b2b7f8;
+$gh-lang-vhdl: #adb2cb;
+$gh-lang-vimscript: #199f4b;
+$gh-lang-visualbasicnet: #945db7;
+$gh-lang-volt: #1F1F1F;
+$gh-lang-vue: #2c3e50;
+$gh-lang-wdl: #42f1f4;
+$gh-lang-webassembly: #04133b;
+$gh-lang-webidl: $lang-default;
+$gh-lang-wisp: #7582D1;
+$gh-lang-wollok: #a23738;
+$gh-lang-x10: #4B6BEF;
+$gh-lang-xbase: #403a40;
+$gh-lang-xc: #99DA07;
+$gh-lang-xojo: $lang-default;
+$gh-lang-xproc: $lang-default;
+$gh-lang-xquery: #5232e7;
+$gh-lang-xs: $lang-default;
+$gh-lang-xslt: #EB8CEB;
+$gh-lang-xtend: $lang-default;
+$gh-lang-yacc: #4B6C4B;
+$gh-lang-yara: #220000;
+$gh-lang-yasnippet: #32AB90;
+$gh-lang-zap: #0d665e;
+$gh-lang-zeek: $lang-default;
+$gh-lang-zenscript: #00BCD1;
+$gh-lang-zephir: #118f9e;
+$gh-lang-zig: #ec915c;
+$gh-lang-zil: #dc75e5;
+$gh-lang-zimpl: $lang-default;
+.language-1centerprise{
+	background: $gh-lang-1centerprise;
+}
+.language-4d{
+	background: $gh-lang-4d;
+}
+.language-abap{
+	background: $gh-lang-abap;
+}
+.language-actionscript{
+	background: $gh-lang-actionscript;
+}
+.language-ada{
+	background: $gh-lang-ada;
+}
+.language-agda{
+	background: $gh-lang-agda;
+}
+.language-agsscript{
+	background: $gh-lang-agsscript;
+}
+.language-alloy{
+	background: $gh-lang-alloy;
+}
+.language-alpineabuild{
+	background: $gh-lang-alpineabuild;
+}
+.language-ampl{
+	background: $gh-lang-ampl;
+}
+.language-angelscript{
+	background: $gh-lang-angelscript;
+}
+.language-antlr{
+	background: $gh-lang-antlr;
+}
+.language-apex{
+	background: $gh-lang-apex;
+}
+.language-apiblueprint{
+	background: $gh-lang-apiblueprint;
+}
+.language-apl{
+	background: $gh-lang-apl;
+}
+.language-apolloguidancecomputer{
+	background: $gh-lang-apolloguidancecomputer;
+}
+.language-applescript{
+	background: $gh-lang-applescript;
+}
+.language-arc{
+	background: $gh-lang-arc;
+}
+.language-asp{
+	background: $gh-lang-asp;
+}
+.language-aspectj{
+	background: $gh-lang-aspectj;
+}
+.language-assembly{
+	background: $gh-lang-assembly;
+}
+.language-asymptote{
+	background: $gh-lang-asymptote;
+}
+.language-ats{
+	background: $gh-lang-ats;
+}
+.language-augeas{
+	background: $gh-lang-augeas;
+}
+.language-autohotkey{
+	background: $gh-lang-autohotkey;
+}
+.language-autoit{
+	background: $gh-lang-autoit;
+}
+.language-awk{
+	background: $gh-lang-awk;
+}
+.language-ballerina{
+	background: $gh-lang-ballerina;
+}
+.language-batchfile{
+	background: $gh-lang-batchfile;
+}
+.language-befunge{
+	background: $gh-lang-befunge;
+}
+.language-bison{
+	background: $gh-lang-bison;
+}
+.language-bitbake{
+	background: $gh-lang-bitbake;
+}
+.language-blitzbasic{
+	background: $gh-lang-blitzbasic;
+}
+.language-blitzmax{
+	background: $gh-lang-blitzmax;
+}
+.language-bluespec{
+	background: $gh-lang-bluespec;
+}
+.language-boo{
+	background: $gh-lang-boo;
+}
+.language-brainfuck{
+	background: $gh-lang-brainfuck;
+}
+.language-brightscript{
+	background: $gh-lang-brightscript;
+}
+.language-c{
+	background: $gh-lang-c;
+}
+.language-c{
+	background: $gh-lang-c;
+}
+.language-c{
+	background: $gh-lang-c;
+}
+.language-c2hshaskell{
+	background: $gh-lang-c2hshaskell;
+}
+.language-capnproto{
+	background: $gh-lang-capnproto;
+}
+.language-cartocss{
+	background: $gh-lang-cartocss;
+}
+.language-ceylon{
+	background: $gh-lang-ceylon;
+}
+.language-chapel{
+	background: $gh-lang-chapel;
+}
+.language-charity{
+	background: $gh-lang-charity;
+}
+.language-chuck{
+	background: $gh-lang-chuck;
+}
+.language-cirru{
+	background: $gh-lang-cirru;
+}
+.language-clarion{
+	background: $gh-lang-clarion;
+}
+.language-clean{
+	background: $gh-lang-clean;
+}
+.language-click{
+	background: $gh-lang-click;
+}
+.language-clips{
+	background: $gh-lang-clips;
+}
+.language-clojure{
+	background: $gh-lang-clojure;
+}
+.language-cmake{
+	background: $gh-lang-cmake;
+}
+.language-cobol{
+	background: $gh-lang-cobol;
+}
+.language-codeql{
+	background: $gh-lang-codeql;
+}
+.language-coffeescript{
+	background: $gh-lang-coffeescript;
+}
+.language-coldfusion{
+	background: $gh-lang-coldfusion;
+}
+.language-coldfusioncfc{
+	background: $gh-lang-coldfusioncfc;
+}
+.language-commonlisp{
+	background: $gh-lang-commonlisp;
+}
+.language-commonworkflowlanguage{
+	background: $gh-lang-commonworkflowlanguage;
+}
+.language-componentpascal{
+	background: $gh-lang-componentpascal;
+}
+.language-cool{
+	background: $gh-lang-cool;
+}
+.language-coq{
+	background: $gh-lang-coq;
+}
+.language-crystal{
+	background: $gh-lang-crystal;
+}
+.language-csound{
+	background: $gh-lang-csound;
+}
+.language-csounddocument{
+	background: $gh-lang-csounddocument;
+}
+.language-csoundscore{
+	background: $gh-lang-csoundscore;
+}
+.language-css{
+	background: $gh-lang-css;
+}
+.language-cuda{
+	background: $gh-lang-cuda;
+}
+.language-cweb{
+	background: $gh-lang-cweb;
+}
+.language-cycript{
+	background: $gh-lang-cycript;
+}
+.language-cython{
+	background: $gh-lang-cython;
+}
+.language-d{
+	background: $gh-lang-d;
+}
+.language-dart{
+	background: $gh-lang-dart;
+}
+.language-dataweave{
+	background: $gh-lang-dataweave;
+}
+.language-dhall{
+	background: $gh-lang-dhall;
+}
+.language-digitalcommandlanguage{
+	background: $gh-lang-digitalcommandlanguage;
+}
+.language-dm{
+	background: $gh-lang-dm;
+}
+.language-dockerfile{
+	background: $gh-lang-dockerfile;
+}
+.language-dogescript{
+	background: $gh-lang-dogescript;
+}
+.language-dtrace{
+	background: $gh-lang-dtrace;
+}
+.language-dylan{
+	background: $gh-lang-dylan;
+}
+.language-e{
+	background: $gh-lang-e;
+}
+.language-ec{
+	background: $gh-lang-ec;
+}
+.language-ecl{
+	background: $gh-lang-ecl;
+}
+.language-eclipse{
+	background: $gh-lang-eclipse;
+}
+.language-eiffel{
+	background: $gh-lang-eiffel;
+}
+.language-elixir{
+	background: $gh-lang-elixir;
+}
+.language-elm{
+	background: $gh-lang-elm;
+}
+.language-emacslisp{
+	background: $gh-lang-emacslisp;
+}
+.language-emberscript{
+	background: $gh-lang-emberscript;
+}
+.language-eq{
+	background: $gh-lang-eq;
+}
+.language-erlang{
+	background: $gh-lang-erlang;
+}
+.language-f{
+	background: $gh-lang-f;
+}
+.language-f{
+	background: $gh-lang-f;
+}
+.language-factor{
+	background: $gh-lang-factor;
+}
+.language-fancy{
+	background: $gh-lang-fancy;
+}
+.language-fantom{
+	background: $gh-lang-fantom;
+}
+.language-faust{
+	background: $gh-lang-faust;
+}
+.language-filebenchwml{
+	background: $gh-lang-filebenchwml;
+}
+.language-filterscript{
+	background: $gh-lang-filterscript;
+}
+.language-fish{
+	background: $gh-lang-fish;
+}
+.language-flux{
+	background: $gh-lang-flux;
+}
+.language-forth{
+	background: $gh-lang-forth;
+}
+.language-fortran{
+	background: $gh-lang-fortran;
+}
+.language-freemarker{
+	background: $gh-lang-freemarker;
+}
+.language-frege{
+	background: $gh-lang-frege;
+}
+.language-gcode{
+	background: $gh-lang-gcode;
+}
+.language-gamemakerlanguage{
+	background: $gh-lang-gamemakerlanguage;
+}
+.language-gaml{
+	background: $gh-lang-gaml;
+}
+.language-gams{
+	background: $gh-lang-gams;
+}
+.language-gap{
+	background: $gh-lang-gap;
+}
+.language-gccmachinedescription{
+	background: $gh-lang-gccmachinedescription;
+}
+.language-gdb{
+	background: $gh-lang-gdb;
+}
+.language-gdscript{
+	background: $gh-lang-gdscript;
+}
+.language-genie{
+	background: $gh-lang-genie;
+}
+.language-genshi{
+	background: $gh-lang-genshi;
+}
+.language-gentooebuild{
+	background: $gh-lang-gentooebuild;
+}
+.language-gentooeclass{
+	background: $gh-lang-gentooeclass;
+}
+.language-gherkin{
+	background: $gh-lang-gherkin;
+}
+.language-glsl{
+	background: $gh-lang-glsl;
+}
+.language-glyph{
+	background: $gh-lang-glyph;
+}
+.language-gnuplot{
+	background: $gh-lang-gnuplot;
+}
+.language-go{
+	background: $gh-lang-go;
+}
+.language-golo{
+	background: $gh-lang-golo;
+}
+.language-gosu{
+	background: $gh-lang-gosu;
+}
+.language-grace{
+	background: $gh-lang-grace;
+}
+.language-grammaticalframework{
+	background: $gh-lang-grammaticalframework;
+}
+.language-groovy{
+	background: $gh-lang-groovy;
+}
+.language-groovyserverpages{
+	background: $gh-lang-groovyserverpages;
+}
+.language-hack{
+	background: $gh-lang-hack;
+}
+.language-harbour{
+	background: $gh-lang-harbour;
+}
+.language-haskell{
+	background: $gh-lang-haskell;
+}
+.language-haxe{
+	background: $gh-lang-haxe;
+}
+.language-hcl{
+	background: $gh-lang-hcl;
+}
+.language-hiveql{
+	background: $gh-lang-hiveql;
+}
+.language-hlsl{
+	background: $gh-lang-hlsl;
+}
+.language-holyc{
+	background: $gh-lang-holyc;
+}
+.language-html{
+	background: $gh-lang-html;
+}
+.language-hy{
+	background: $gh-lang-hy;
+}
+.language-hyphy{
+	background: $gh-lang-hyphy;
+}
+.language-idl{
+	background: $gh-lang-idl;
+}
+.language-idris{
+	background: $gh-lang-idris;
+}
+.language-igorpro{
+	background: $gh-lang-igorpro;
+}
+.language-inform7{
+	background: $gh-lang-inform7;
+}
+.language-innosetup{
+	background: $gh-lang-innosetup;
+}
+.language-io{
+	background: $gh-lang-io;
+}
+.language-ioke{
+	background: $gh-lang-ioke;
+}
+.language-isabelle{
+	background: $gh-lang-isabelle;
+}
+.language-isabelleroot{
+	background: $gh-lang-isabelleroot;
+}
+.language-j{
+	background: $gh-lang-j;
+}
+.language-jasmin{
+	background: $gh-lang-jasmin;
+}
+.language-java{
+	background: $gh-lang-java;
+}
+.language-javaserverpages{
+	background: $gh-lang-javaserverpages;
+}
+.language-javascript{
+	background: $gh-lang-javascript;
+}
+.language-javascripterb{
+	background: $gh-lang-javascripterb;
+}
+.language-jflex{
+	background: $gh-lang-jflex;
+}
+.language-jison{
+	background: $gh-lang-jison;
+}
+.language-jisonlex{
+	background: $gh-lang-jisonlex;
+}
+.language-jolie{
+	background: $gh-lang-jolie;
+}
+.language-jsoniq{
+	background: $gh-lang-jsoniq;
+}
+.language-jsonnet{
+	background: $gh-lang-jsonnet;
+}
+.language-jsx{
+	background: $gh-lang-jsx;
+}
+.language-julia{
+	background: $gh-lang-julia;
+}
+.language-jupyternotebook{
+	background: $gh-lang-jupyternotebook;
+}
+.language-kotlin{
+	background: $gh-lang-kotlin;
+}
+.language-krl{
+	background: $gh-lang-krl;
+}
+.language-labview{
+	background: $gh-lang-labview;
+}
+.language-lasso{
+	background: $gh-lang-lasso;
+}
+.language-lean{
+	background: $gh-lang-lean;
+}
+.language-lex{
+	background: $gh-lang-lex;
+}
+.language-lfe{
+	background: $gh-lang-lfe;
+}
+.language-lilypond{
+	background: $gh-lang-lilypond;
+}
+.language-limbo{
+	background: $gh-lang-limbo;
+}
+.language-literateagda{
+	background: $gh-lang-literateagda;
+}
+.language-literatecoffeescript{
+	background: $gh-lang-literatecoffeescript;
+}
+.language-literatehaskell{
+	background: $gh-lang-literatehaskell;
+}
+.language-livescript{
+	background: $gh-lang-livescript;
+}
+.language-llvm{
+	background: $gh-lang-llvm;
+}
+.language-logos{
+	background: $gh-lang-logos;
+}
+.language-logtalk{
+	background: $gh-lang-logtalk;
+}
+.language-lolcode{
+	background: $gh-lang-lolcode;
+}
+.language-lookml{
+	background: $gh-lang-lookml;
+}
+.language-loomscript{
+	background: $gh-lang-loomscript;
+}
+.language-lsl{
+	background: $gh-lang-lsl;
+}
+.language-lua{
+	background: $gh-lang-lua;
+}
+.language-m{
+	background: $gh-lang-m;
+}
+.language-m4{
+	background: $gh-lang-m4;
+}
+.language-m4sugar{
+	background: $gh-lang-m4sugar;
+}
+.language-makefile{
+	background: $gh-lang-makefile;
+}
+.language-mako{
+	background: $gh-lang-mako;
+}
+.language-mask{
+	background: $gh-lang-mask;
+}
+.language-mathematica{
+	background: $gh-lang-mathematica;
+}
+.language-matlab{
+	background: $gh-lang-matlab;
+}
+.language-max{
+	background: $gh-lang-max;
+}
+.language-maxscript{
+	background: $gh-lang-maxscript;
+}
+.language-mcfunction{
+	background: $gh-lang-mcfunction;
+}
+.language-mercury{
+	background: $gh-lang-mercury;
+}
+.language-meson{
+	background: $gh-lang-meson;
+}
+.language-metal{
+	background: $gh-lang-metal;
+}
+.language-minid{
+	background: $gh-lang-minid;
+}
+.language-mirah{
+	background: $gh-lang-mirah;
+}
+.language-mircscript{
+	background: $gh-lang-mircscript;
+}
+.language-mlir{
+	background: $gh-lang-mlir;
+}
+.language-modelica{
+	background: $gh-lang-modelica;
+}
+.language-modula2{
+	background: $gh-lang-modula2;
+}
+.language-modula3{
+	background: $gh-lang-modula3;
+}
+.language-modulemanagementsystem{
+	background: $gh-lang-modulemanagementsystem;
+}
+.language-monkey{
+	background: $gh-lang-monkey;
+}
+.language-moocode{
+	background: $gh-lang-moocode;
+}
+.language-moonscript{
+	background: $gh-lang-moonscript;
+}
+.language-motorola68kassembly{
+	background: $gh-lang-motorola68kassembly;
+}
+.language-mql4{
+	background: $gh-lang-mql4;
+}
+.language-mql5{
+	background: $gh-lang-mql5;
+}
+.language-mtml{
+	background: $gh-lang-mtml;
+}
+.language-muf{
+	background: $gh-lang-muf;
+}
+.language-mupad{
+	background: $gh-lang-mupad;
+}
+.language-myghty{
+	background: $gh-lang-myghty;
+}
+.language-nasl{
+	background: $gh-lang-nasl;
+}
+.language-ncl{
+	background: $gh-lang-ncl;
+}
+.language-nearley{
+	background: $gh-lang-nearley;
+}
+.language-nemerle{
+	background: $gh-lang-nemerle;
+}
+.language-nesc{
+	background: $gh-lang-nesc;
+}
+.language-netlinx{
+	background: $gh-lang-netlinx;
+}
+.language-netlinxerb{
+	background: $gh-lang-netlinxerb;
+}
+.language-netlogo{
+	background: $gh-lang-netlogo;
+}
+.language-newlisp{
+	background: $gh-lang-newlisp;
+}
+.language-nextflow{
+	background: $gh-lang-nextflow;
+}
+.language-nim{
+	background: $gh-lang-nim;
+}
+.language-nit{
+	background: $gh-lang-nit;
+}
+.language-nix{
+	background: $gh-lang-nix;
+}
+.language-nsis{
+	background: $gh-lang-nsis;
+}
+.language-nu{
+	background: $gh-lang-nu;
+}
+.language-numpy{
+	background: $gh-lang-numpy;
+}
+.language-objectivec{
+	background: $gh-lang-objectivec;
+}
+.language-objectivec{
+	background: $gh-lang-objectivec;
+}
+.language-objectivej{
+	background: $gh-lang-objectivej;
+}
+.language-objectscript{
+	background: $gh-lang-objectscript;
+}
+.language-ocaml{
+	background: $gh-lang-ocaml;
+}
+.language-odin{
+	background: $gh-lang-odin;
+}
+.language-omgrofl{
+	background: $gh-lang-omgrofl;
+}
+.language-ooc{
+	background: $gh-lang-ooc;
+}
+.language-opa{
+	background: $gh-lang-opa;
+}
+.language-opal{
+	background: $gh-lang-opal;
+}
+.language-openpolicyagent{
+	background: $gh-lang-openpolicyagent;
+}
+.language-opencl{
+	background: $gh-lang-opencl;
+}
+.language-openedgeabl{
+	background: $gh-lang-openedgeabl;
+}
+.language-openqasm{
+	background: $gh-lang-openqasm;
+}
+.language-openrcrunscript{
+	background: $gh-lang-openrcrunscript;
+}
+.language-openscad{
+	background: $gh-lang-openscad;
+}
+.language-ox{
+	background: $gh-lang-ox;
+}
+.language-oxygene{
+	background: $gh-lang-oxygene;
+}
+.language-oz{
+	background: $gh-lang-oz;
+}
+.language-p4{
+	background: $gh-lang-p4;
+}
+.language-pan{
+	background: $gh-lang-pan;
+}
+.language-papyrus{
+	background: $gh-lang-papyrus;
+}
+.language-parrot{
+	background: $gh-lang-parrot;
+}
+.language-parrotassembly{
+	background: $gh-lang-parrotassembly;
+}
+.language-parrotinternalrepresentation{
+	background: $gh-lang-parrotinternalrepresentation;
+}
+.language-pascal{
+	background: $gh-lang-pascal;
+}
+.language-pawn{
+	background: $gh-lang-pawn;
+}
+.language-pep8{
+	background: $gh-lang-pep8;
+}
+.language-perl{
+	background: $gh-lang-perl;
+}
+.language-php{
+	background: $gh-lang-php;
+}
+.language-picolisp{
+	background: $gh-lang-picolisp;
+}
+.language-piglatin{
+	background: $gh-lang-piglatin;
+}
+.language-pike{
+	background: $gh-lang-pike;
+}
+.language-plpgsql{
+	background: $gh-lang-plpgsql;
+}
+.language-plsql{
+	background: $gh-lang-plsql;
+}
+.language-pogoscript{
+	background: $gh-lang-pogoscript;
+}
+.language-pony{
+	background: $gh-lang-pony;
+}
+.language-postscript{
+	background: $gh-lang-postscript;
+}
+.language-povraysdl{
+	background: $gh-lang-povraysdl;
+}
+.language-powerbuilder{
+	background: $gh-lang-powerbuilder;
+}
+.language-powershell{
+	background: $gh-lang-powershell;
+}
+.language-processing{
+	background: $gh-lang-processing;
+}
+.language-prolog{
+	background: $gh-lang-prolog;
+}
+.language-propellerspin{
+	background: $gh-lang-propellerspin;
+}
+.language-puppet{
+	background: $gh-lang-puppet;
+}
+.language-purebasic{
+	background: $gh-lang-purebasic;
+}
+.language-purescript{
+	background: $gh-lang-purescript;
+}
+.language-python{
+	background: $gh-lang-python;
+}
+.language-pythonconsole{
+	background: $gh-lang-pythonconsole;
+}
+.language-q{
+	background: $gh-lang-q;
+}
+.language-qmake{
+	background: $gh-lang-qmake;
+}
+.language-qml{
+	background: $gh-lang-qml;
+}
+.language-quake{
+	background: $gh-lang-quake;
+}
+.language-r{
+	background: $gh-lang-r;
+}
+.language-racket{
+	background: $gh-lang-racket;
+}
+.language-ragel{
+	background: $gh-lang-ragel;
+}
+.language-raku{
+	background: $gh-lang-raku;
+}
+.language-raml{
+	background: $gh-lang-raml;
+}
+.language-rascal{
+	background: $gh-lang-rascal;
+}
+.language-realbasic{
+	background: $gh-lang-realbasic;
+}
+.language-reason{
+	background: $gh-lang-reason;
+}
+.language-rebol{
+	background: $gh-lang-rebol;
+}
+.language-red{
+	background: $gh-lang-red;
+}
+.language-redcode{
+	background: $gh-lang-redcode;
+}
+.language-renpy{
+	background: $gh-lang-renpy;
+}
+.language-renderscript{
+	background: $gh-lang-renderscript;
+}
+.language-rexx{
+	background: $gh-lang-rexx;
+}
+.language-ring{
+	background: $gh-lang-ring;
+}
+.language-riot{
+	background: $gh-lang-riot;
+}
+.language-robotframework{
+	background: $gh-lang-robotframework;
+}
+.language-roff{
+	background: $gh-lang-roff;
+}
+.language-rouge{
+	background: $gh-lang-rouge;
+}
+.language-rpc{
+	background: $gh-lang-rpc;
+}
+.language-ruby{
+	background: $gh-lang-ruby;
+}
+.language-runoff{
+	background: $gh-lang-runoff;
+}
+.language-rust{
+	background: $gh-lang-rust;
+}
+.language-sage{
+	background: $gh-lang-sage;
+}
+.language-saltstack{
+	background: $gh-lang-saltstack;
+}
+.language-sas{
+	background: $gh-lang-sas;
+}
+.language-scala{
+	background: $gh-lang-scala;
+}
+.language-scheme{
+	background: $gh-lang-scheme;
+}
+.language-scilab{
+	background: $gh-lang-scilab;
+}
+.language-sed{
+	background: $gh-lang-sed;
+}
+.language-self{
+	background: $gh-lang-self;
+}
+.language-shaderlab{
+	background: $gh-lang-shaderlab;
+}
+.language-shell{
+	background: $gh-lang-shell;
+}
+.language-shellsession{
+	background: $gh-lang-shellsession;
+}
+.language-shen{
+	background: $gh-lang-shen;
+}
+.language-slash{
+	background: $gh-lang-slash;
+}
+.language-slice{
+	background: $gh-lang-slice;
+}
+.language-smali{
+	background: $gh-lang-smali;
+}
+.language-smalltalk{
+	background: $gh-lang-smalltalk;
+}
+.language-smarty{
+	background: $gh-lang-smarty;
+}
+.language-smpl{
+	background: $gh-lang-smpl;
+}
+.language-smt{
+	background: $gh-lang-smt;
+}
+.language-solidity{
+	background: $gh-lang-solidity;
+}
+.language-sourcepawn{
+	background: $gh-lang-sourcepawn;
+}
+.language-sqf{
+	background: $gh-lang-sqf;
+}
+.language-sqlpl{
+	background: $gh-lang-sqlpl;
+}
+.language-squirrel{
+	background: $gh-lang-squirrel;
+}
+.language-srecodetemplate{
+	background: $gh-lang-srecodetemplate;
+}
+.language-stan{
+	background: $gh-lang-stan;
+}
+.language-standardml{
+	background: $gh-lang-standardml;
+}
+.language-starlark{
+	background: $gh-lang-starlark;
+}
+.language-stata{
+	background: $gh-lang-stata;
+}
+.language-supercollider{
+	background: $gh-lang-supercollider;
+}
+.language-swift{
+	background: $gh-lang-swift;
+}
+.language-swig{
+	background: $gh-lang-swig;
+}
+.language-systemverilog{
+	background: $gh-lang-systemverilog;
+}
+.language-tcl{
+	background: $gh-lang-tcl;
+}
+.language-tcsh{
+	background: $gh-lang-tcsh;
+}
+.language-terra{
+	background: $gh-lang-terra;
+}
+.language-tex{
+	background: $gh-lang-tex;
+}
+.language-thrift{
+	background: $gh-lang-thrift;
+}
+.language-tiprogram{
+	background: $gh-lang-tiprogram;
+}
+.language-tla{
+	background: $gh-lang-tla;
+}
+.language-tsql{
+	background: $gh-lang-tsql;
+}
+.language-tsx{
+	background: $gh-lang-tsx;
+}
+.language-turing{
+	background: $gh-lang-turing;
+}
+.language-txl{
+	background: $gh-lang-txl;
+}
+.language-typescript{
+	background: $gh-lang-typescript;
+}
+.language-unifiedparallelc{
+	background: $gh-lang-unifiedparallelc;
+}
+.language-unixassembly{
+	background: $gh-lang-unixassembly;
+}
+.language-uno{
+	background: $gh-lang-uno;
+}
+.language-unrealscript{
+	background: $gh-lang-unrealscript;
+}
+.language-urweb{
+	background: $gh-lang-urweb;
+}
+.language-v{
+	background: $gh-lang-v;
+}
+.language-vala{
+	background: $gh-lang-vala;
+}
+.language-vba{
+	background: $gh-lang-vba;
+}
+.language-vbscript{
+	background: $gh-lang-vbscript;
+}
+.language-vcl{
+	background: $gh-lang-vcl;
+}
+.language-verilog{
+	background: $gh-lang-verilog;
+}
+.language-vhdl{
+	background: $gh-lang-vhdl;
+}
+.language-vimscript{
+	background: $gh-lang-vimscript;
+}
+.language-visualbasicnet{
+	background: $gh-lang-visualbasicnet;
+}
+.language-volt{
+	background: $gh-lang-volt;
+}
+.language-vue{
+	background: $gh-lang-vue;
+}
+.language-wdl{
+	background: $gh-lang-wdl;
+}
+.language-webassembly{
+	background: $gh-lang-webassembly;
+}
+.language-webidl{
+	background: $gh-lang-webidl;
+}
+.language-wisp{
+	background: $gh-lang-wisp;
+}
+.language-wollok{
+	background: $gh-lang-wollok;
+}
+.language-x10{
+	background: $gh-lang-x10;
+}
+.language-xbase{
+	background: $gh-lang-xbase;
+}
+.language-xc{
+	background: $gh-lang-xc;
+}
+.language-xojo{
+	background: $gh-lang-xojo;
+}
+.language-xproc{
+	background: $gh-lang-xproc;
+}
+.language-xquery{
+	background: $gh-lang-xquery;
+}
+.language-xs{
+	background: $gh-lang-xs;
+}
+.language-xslt{
+	background: $gh-lang-xslt;
+}
+.language-xtend{
+	background: $gh-lang-xtend;
+}
+.language-yacc{
+	background: $gh-lang-yacc;
+}
+.language-yara{
+	background: $gh-lang-yara;
+}
+.language-yasnippet{
+	background: $gh-lang-yasnippet;
+}
+.language-zap{
+	background: $gh-lang-zap;
+}
+.language-zeek{
+	background: $gh-lang-zeek;
+}
+.language-zenscript{
+	background: $gh-lang-zenscript;
+}
+.language-zephir{
+	background: $gh-lang-zephir;
+}
+.language-zig{
+	background: $gh-lang-zig;
+}
+.language-zil{
+	background: $gh-lang-zil;
+}
+.language-zimpl{
+	background: $gh-lang-zimpl;
+}

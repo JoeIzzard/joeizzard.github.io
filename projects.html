@@ -1,0 +1,32 @@
+---
+layout: page
+permalink: /projects
+
+title: Projects
+description: All Joe Izzard's Public Projects
+---
+
+<div class="searchbar">
+    <div class="searchbox">
+        <input class="search-box" type="text" name="search" placeholder="Search Projects" autocomplete="off" />
+        <span class="icon fas fa-search"></span>
+    </div>
+</div>
+
+<section class="sidebar-container projects">
+    <div class="sidebar">
+        <div class="widget" id="category-sidebar">
+        </div>
+    </div>
+    <div class="content-fill">
+        <!-- No Results Container -->
+        <div class="no-results-container"></div>
+
+        <!-- Results Container -->
+        <div class="project-results" id="project-results"></div>
+    </div>
+</section>
+
+{% include project-search.html %}
+{% include project-code.html %}
+<script src="/assets/js/projects.js"></script>

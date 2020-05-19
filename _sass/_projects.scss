@@ -1,0 +1,187 @@
+.project-results{
+
+
+    .project-card{
+        display: inline-block;
+        max-width: 20%;
+        margin: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        padding: 5px;
+        text-align: center;
+        position:relative;
+        flex: 1;
+
+        h2{
+            margin: 0;
+            padding: 0;
+            margin-bottom: 20px;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .infobar{
+            width: calc(100% - 10px);
+            position: absolute;
+            bottom: 50px;
+            left: 0;
+            margin: 0 5px;
+            font-family: 'Montserrat', sans-serif;
+
+            .primary-language{
+                float: left;
+                color: #BABABA;
+            }
+
+            .open-link{
+                float:right;
+
+                a{
+                    color: #555;
+                }
+            }
+        }
+
+        .langbar{
+            width: 100%;
+            height: 10px;
+            display: flex;
+            position: absolute;
+            bottom: 40px;
+            left: 0;
+
+            .lang-segment{
+                display: inline-block;
+                position: relative;
+            }
+
+        }
+
+        .statsBar{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 40px;
+            border-top: 1px solid;
+
+            .stat-forks{
+                width: 25%;
+                height: 100%;
+                display: inline-block;
+                line-height: 40px;
+                font-size: 25px;
+                font-weight: bold;
+            }
+
+            .stat-forks:before{
+                content: "\f126";
+                font-family: 'Font Awesome 5 Free';
+                font-weight: 900;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 25%;
+                height: 100%;
+                font-size: 35px;
+                line-height: 40px;
+                opacity: 0.25;
+            }
+
+            .stat-stars{
+                width: 25%;
+                height: 100%;
+                display: inline-block;
+                line-height: 40px;
+                font-size: 25px;
+                font-weight: bold;
+            }
+
+            .stat-stars:before{
+                content: "\f005";
+                font-family: 'Font Awesome 5 Free';
+                font-weight: 900;
+                position: absolute;
+                top: 0;
+                left: 25%;
+                width: 25%;
+                height: 100%;
+                font-size: 35px;
+                line-height: 40px;
+                opacity: 0.25;
+            }
+
+            .stat-watchers{
+                width: 25%;
+                height: 100%;
+                display: inline-block;
+                line-height: 40px;
+                font-size: 25px;
+                font-weight: bold;
+            }
+
+            .stat-watchers:before{
+                content: "\f06e";
+                font-family: 'Font Awesome 5 Free';
+                font-weight: 900;
+                position: absolute;
+                top: 0;
+                left: 50%;
+                width: 25%;
+                height: 100%;
+                font-size: 35px;
+                line-height: 40px;
+                opacity: 0.25;
+            }
+
+            .stat-subs{
+                width: 25%;
+                height: 100%;
+                display: inline-block;
+                line-height: 40px;
+                font-size: 25px;
+                font-weight: bold;
+            }
+
+            .stat-subs:before{
+                content: "\f007";
+                font-family: 'Font Awesome 5 Free';
+                font-weight: 900;
+                position: absolute;
+                top: 0;
+                left: 75%;
+                width: 25%;
+                height: 100%;
+                font-size: 35px;
+                line-height: 40px;
+                opacity: 0.25;
+            }
+        }
+    }
+
+    .project-card:after{
+        content: "";
+        display: block;
+        padding-bottom: 30%;
+    }
+
+    .project-card:hover{
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+}
+
+.category{
+    h1 {
+        padding: 0;
+    }
+
+    .project-container{
+        display: flex;
+    }
+}
+
+.featured-projects{
+    .project-card{
+        max-width: 45% !important;
+    }
+}
