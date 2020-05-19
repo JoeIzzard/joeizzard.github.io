@@ -84,6 +84,6 @@ social-networks:
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "UA-167108707-1"
 
 exclude: ['package.json', 'src' , 'node_modules']
